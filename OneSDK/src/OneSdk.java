@@ -44,6 +44,24 @@ public class OneSdk {
         
         // Query Order
         //System.out.println(Query.getResponse());
+        
+        // Create Sale CompleteRequest
+        //System.out.println(CompleteRequest.getResponse());
+        
+        // Create Sale AntiFraud
+        //System.out.println(AntiFraudRequest.getResponse());
+        
+        // Create Recurrency
+        //System.out.println(Recurrency.getResponse());
+        
+        // Get InstantBuyKey
+        //System.out.println(InstantBuyKey.getResponse());
+        
+        // Creates Sale with InstantBuyKey
+        //System.out.println(InstantBuyKeyTransaction.getResponse());
+        
+        // Creates Sale with MultiMeios
+        System.out.println(MultiMeios.getResponse());
     }
 
 }
